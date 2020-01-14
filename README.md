@@ -1,4 +1,4 @@
-# Ontonote5.0-Data-Processing
+# OntoNotes5.0-Data-Processing
 Handle Ontonote5.0 Data
 
 ## Steps:
@@ -27,6 +27,6 @@ SO I import reproduction, base_loader.py in OntoNoteLoader.py from older fastNLP
   
 To change to BIO format, just put v4 in the same level as OntoNoteLoader.py.  
 After u **run OntoNoteLoader.py**, u will see files in v4_.
-### 3. Change Chinese data into character base
-**run ch_OntoNote5.0_handle.py** to get chinese character base txt file.
+### 3. Change Chinese data into character-base
+**run ch_ontonotes5.0_handle.py** to get chinese character-base txt file.
 U will get **ch_train_.txt**, **ch_dev_txt in v4_**.
