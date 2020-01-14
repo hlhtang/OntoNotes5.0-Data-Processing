@@ -23,7 +23,7 @@ After u done yhcc tutorial, u will get v4 directory.
 ### 2. BIO format 
 Here change some codes from fastNLP(https://reurl.cc/ObW7G9): OntoNoteLoader.py.  
 This OntoNoteLoader.py uses older fastNLP version.  
-Because my fastNLP version is 0.5.0, I import some packages in OntoNoteLoader.py from fastNLP 5.0.  
+SO I import reproduction, base_loader.py in OntoNoteLoader.py from older fastNLP version.    
   
 To change to BIO format, just put v4 in the same level as OntoNoteLoader.py.  
 After u **run OntoNoteLoader.py**, U will get files in v4_.
