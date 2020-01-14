@@ -142,6 +142,9 @@ class OntoNoteNERDataLoader(DataSetLoader):
 if __name__ == '__main__':
     loader = OntoNoteNERDataLoader()
 
+    if not os.path.isdir(r'./v4_/'):
+        os.mkdir(r'./v4_/')
+
     dataset = loader.load(r'./v4/english/train.txt')
     en_train = open(r'./v4_/en_train.txt', 'w', encoding='utf-8') 
     for i in range(len(dataset.datasets['train'])):
