@@ -1,5 +1,5 @@
 # OntoNotes5.0-Data-Processing
-Handle Ontonotes5.0 Data
+Handle Ontonotes5.0 Dataset
 
 ## Steps:
 ### 1. Follow yhcc(https://github.com/yhcc/OntoNotes-5.0-NER)
